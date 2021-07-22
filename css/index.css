@@ -1,0 +1,55 @@
+body {
+  background-color: blue;
+}
+#unordered-list {
+  background-color: red;
+}
+ul {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+li {
+  list-style-type: none;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Flex Box approach */
+.images-container {
+  background-color: green;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-container {
+  background-color: aqua;
+
+}
+.generic-img {
+  width: 400px;
+  height: 600px;
+}
+
+
+/* Grid approach */
+.images-container2 {
+  background-color: orange;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-container2 {
+  background-color: yellow;
+
+}
+.generic-img2 {
+  width: 400px;
+  height: 600px;
+}
